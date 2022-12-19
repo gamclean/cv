@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Contact Me</title>
+</head>
+<style>
+
+    table, th, td {
+        border: 1px solid black;
+        border-collapse: collapse;
+    }
+    
+</style>
+<body>
+    <h1>My Contact Details</h1>
+    <table cellspacing="10">
+        <tr>
+           <td><em><strong>My Address: </strong></em></td>
+           <td><em>41 Coronation Street Cullinan</em></td>
+        </tr>
+        <tr>
+           <td><em><strong>Contact Number: </strong></em></td>
+           <td><em>076 314 2363</em></td>
+        </tr>
+        <tr>
+           <td><em><strong>Email Address: </strong></em></td>
+           <td><em>g_c_mclean@yahoo.com</em></td>
+        </tr>
+    </table>
+    <br>
+<form action="mailto:g_c_mclean@yahoo.com" method="post" enctype="text/plain">
+    <label>Your Name:</label>
+    <input type="text" name="Name" value=""><br>
+    <label>Your Email:</label>
+    <input type="email" name="Email" value=""><br>
+    <label>Your Message:</label><br>
+    <textarea name="Message" rows="10" cols="30"></textarea><br>
+    <input type="submit" name="">
+</form>
+</body>
+</html>
